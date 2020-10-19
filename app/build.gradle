@@ -34,7 +34,7 @@ android {
         jvmTarget = JavaVersion.VERSION_1_8.toString()
     }
 }
-
+androidExtensions { experimental = true }
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
